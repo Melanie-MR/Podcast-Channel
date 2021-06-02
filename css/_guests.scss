@@ -1,0 +1,30 @@
+#gueststitle{
+  margin-left: 13.9%;
+  margin-top: 20%;
+}
+.guests{
+  width: 100%;
+    .fotos{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      img {
+        max-width: 33.33%;
+      }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .guests{
+    width: 100%;
+    .fotos{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}

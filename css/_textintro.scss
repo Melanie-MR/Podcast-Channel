@@ -1,0 +1,84 @@
+
+  .hello{
+    font-size: 32px; 
+    font-weight: 200;
+    color: #060A24;
+    letter-spacing: 0; 
+    margin-left: 13.9%;
+  }
+  #textmobile{
+    display: none;
+  }
+  .description {
+    width: 628px;
+    height: 30px;
+    text-align: justify;
+    line-height: 24px;
+    margin-left: 13.9%;
+    margin-top: 0;
+    padding-top: 0;
+    
+  }
+  #world{
+    text-decoration-line: line-through;
+  }
+  .bluedot {
+    color: blue;
+  }
+  
+  .button {  
+    display: inline-block;
+    width: 226px;
+    height: 56px;
+    margin-left: 13.9%;
+    margin-top: 56px;
+    background-color: #00F3BB;
+    text-align: center;
+    text-transform: uppercase;
+    :link {
+      text-decoration:none;
+    }
+    :hover{
+        color: #ffffff;
+    } 
+  }
+  #more:hover {
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+  }
+  
+
+  @media only screen and (max-width: 480px) {
+    .bluedot {
+      color: black;
+    }
+    .textdesktop{
+      display: none;
+    }
+    #textmobile{
+      display: inline;
+    }
+    .hello{
+      margin-left: 5%;
+      font-size: 36px;
+    }
+    .description{
+      margin-left: 5%;
+      margin-bottom: 5%;
+      width: 320px;
+      
+    }
+    .button {  
+      display: inline-block;
+      width: 288px;
+      height: 48px;
+      margin-left: 5%;
+      margin-bottom: 5%;
+      :hover{
+        color: #ffffff;
+      } 
+    }
+    #more:hover {
+      background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    }
+  }
+  

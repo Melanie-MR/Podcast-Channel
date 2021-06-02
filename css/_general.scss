@@ -1,0 +1,98 @@
+
+body{
+    background-color: $primary-color;
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0;
+  }
+
+  li{
+    font-family: $font-plex-mono;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+    text-transform: uppercase;
+    
+  }
+  h1 {
+    font-family: $font-plex-sans;
+    color:$text-color;
+  }
+  .subtitles {
+    font-family: $font-plex-sans;
+    color:$text-color;
+    font-size: 48px;
+    font-weight: normal;
+    letter-spacing: 0;
+    
+  }
+  h2{
+    font-family: $font-plex-sans;
+    color:  #FFFFFF;
+    font-size: 48px;
+    font-weight: normal;
+    letter-spacing: 0;
+  
+  }
+  
+  h3 {
+    font-family: $font-plex-sans;
+    font-size: 24px;
+    font-weight: 600;
+    color: #060A24;
+    letter-spacing: 0;
+    
+  }
+  h4{
+    font-family: $font-plex-mono;
+    color: $text-color;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 59px;
+    padding-right: 59px;
+    padding-top: 14px;
+    letter-spacing: 0;
+  }
+  h5{
+    font-family: $font-plex-mono;
+    color: $text-color;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  p {
+    font-family: $font-plex-mono;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  h6{
+    margin-bottom: 16px;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    p{
+      font-size: 14px;
+    }
+    h2{
+      font-size: 36px;
+      font-weight: normal;
+      letter-spacing: 0;
+    }
+    .subtitles {
+      font-size: 36px;
+      line-height: 42px;
+    }
+    h4{
+      font-size: 16px;
+      line-height: 22px;
+      padding-left: 20px;
+      padding-right: 0;
+      padding-top: 14px;
+    }
+    h1{
+      font-size: 36px;
+      line-height: 42px;
+    }
+  }

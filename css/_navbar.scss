@@ -1,0 +1,144 @@
+
+.nav{
+  display: flex;
+  justify-content: space-between; 
+  border-bottom: none;
+  text-align: left;
+  background: $primary-color;
+
+}
+#logo {
+  display: flex;
+  align-self: flex-start;
+  padding-top: 22px;
+  margin-left: 6.94%;
+  width: 36px;
+  
+}
+li{
+  display: inline-block;
+  font-family: $font-plex-mono;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
+  padding-left: 40px;
+}
+.menu{
+  margin: 0;
+  padding-right: 6.94%;
+    a {
+      clear: right;
+      text-decoration: none;
+      color: $text-color;
+      margin: 0;
+      line-height: 80px;
+    }
+      :hover{
+        color: #00F3BB;
+        text-decoration: line-through;
+        font-weight: 500;
+      }
+}
+label{
+  margin: 0;
+  font-size: 16px;
+  line-height: 80px;
+  display: none;
+}
+#toggle{
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  
+  .nav {
+
+    display: flex;
+    justify-content: space-between;
+
+    #logo{
+      margin-left: 5%;
+      width: auto;
+    }
+
+    .link {
+      display: block;
+      background: #0000EC 100%;
+      color: #ffffff;
+      margin: 0;
+      padding: 0 16px;
+      width: 277px;
+    }
+    .list{
+      margin-left: -90%;
+    }
+    .exs {
+      display: none;
+      background-color:#060A24;
+      width: 14px;
+      height: 14px;
+      clip-path: polygon(10% 0, 0 10%, 40% 51%, 0 90%, 10% 100%, 50% 60%, 90% 100%, 100% 90%, 60% 50%, 100% 10%, 90% 0, 50% 40%);
+    }
+    .menu2 {
+      position: relative;
+      display: block;
+      width: 64px;
+      height: 64px;
+      cursor: pointer;
+      background-color: white;
+      .bar {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 18px;
+        height: 2px;
+        margin: auto;
+        background: #060A24;
+        opacity: 100%;
+        &:before, &:after {
+          position: absolute;
+          width: 18px;
+          height: 2px;
+          content: '';
+          background: #060A24;
+          opacity: 100%;
+        }
+        &:before {
+          top: -4px;
+        }
+        &:after {
+          bottom: -4px; 
+        }
+      }
+    }
+
+    #toggle:checked + .menu{
+      display: block; 
+      
+    }
+    #toggle:checked~.menu2 {
+      .bar {
+          display: none;
+      }
+      .exs {
+          display: inline-block;
+          margin-left: 30px;
+      }
+  }
+   
+    .menu {
+      width: 150px;
+      color: $primary-color;
+      display: none;
+      margin-top: 50px;
+      a:hover{
+        color: #00F3BB;
+        text-decoration: line-through;
+        font-weight: 500;
+      }
+    }      
+  }
+
+}

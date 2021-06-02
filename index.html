@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c1d53aba1c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="assets/logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Podcast Channel</title>
+</head>
+<body>
+    <header>
+        <!--navbar-->
+        <div class="nav">
+            <img id="logo" src="assets/logo.svg" alt="logo"> 
+            <input type="checkbox" id="toggle" value="flag"/>
+            <div class="menu">
+                <ul class="list">
+                    <li><a class="link" href="#episodes">Episodios</a></li>
+                    <li><a class="link" href="#origins">Nosotros</a></li>
+                    <li><a class="link" href="#gueststitle">Entrevistas</a></li>
+                    <li><a class="link" href="#contentstitle">Tópicos</a></li>
+                </ul>
+            </div>
+            <label id="hamburger" for="toggle" class="menu2">
+                    <span class="bar"></span>
+                    <span class="exs"></span>
+            </label>
+        </div>
+        <!--text intro-->
+        <div class="text">
+            <div class="hello">
+                <h1>Hello <span id="world">world</span> <span class="break">pale blue dot<span class="bluedot">.</span></span></h1>
+            </div> 
+            <div class="description">
+                <p><span class="textdesktop">El portal de </span><span id="textmobile">Un</span> podcasts que explora el mundo de <span class="break"> la programación<span class="textdesktop"> y la tecnología</span>. Nuevos episodios,</span>todos los jueves cada 15 días.</p>
+            </div>
+        </div>
+        <!--button1-->
+            <div class="container">
+            <div class="button" id="more">
+                <a href="#contentstitle"><h4>conocé más</h4></a>
+            </div>
+            </div>
+    </header>
+    <!--episodes-->
+    <section class="polygon">
+        <div class="episodes" id="episodes">
+            <h2 class="whitetitle">Episodios</h2>
+            <div class="embeds">
+                <div class="chapters">
+                <iframe src="https://open.spotify.com/embed-podcast/episode/4TudQzUnNErN9rwLjSlo66"  allow="encrypted-media"></iframe>
+                </div>
+                <div class="chapters">
+                <iframe src="https://open.spotify.com/embed-podcast/episode/7KVpOlPkRDtkldcyayCdMh"  allow="encrypted-media"></iframe>
+                </div>
+                <div class="chapters">
+                <iframe src="https://open.spotify.com/embed-podcast/episode/1DCxW1uFOgVkVryz7oi9am"  allow="encrypted-media"></iframe>
+                </div>
+                <div class="chapters">
+                <iframe src="https://open.spotify.com/embed-podcast/episode/6cKb0tJzj5pgIJtPRq6pws"  allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--origins-->
+    <section class="origins" id="origins">
+        <div><img id="phone" src="assets/phone.png" alt="The Secret History of Women in Coding"></div>
+        <div class="phoneandtext"><h6 class="subtitles" id="sub">De dónde venimos</h6> 
+            <p class="text-origins">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.
+                <span class="break-origins">Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</span></p>
+        </div>  
+    </section>
+    <!--guests-->
+    <section class="guests" id="guests">
+        <h6 class="subtitles" id="gueststitle">Invitadas/os estelares</h6>
+        <div class="fotos">
+            <img src="assets/grace-hopper.png" alt="Grace Hopper">
+            <img src="assets/Katie-Bouman.png" alt="Katie Bouman">
+            <img src="assets/margaret_hamilton.png" alt="Margaret Hamilton">
+            <img src="assets/e.r.a.png" alt="An E.R.A.Univac 1103 computer in the 1950s">
+            <img src="assets/computer_operators.png" alt="Computer operators with an Eniac — the world’s first programmable general-purpose computer">
+            <img src="assets/susan-kare.png" alt="Margaret Hamilton">
+        </div> 
+    </section>
+    <!--content-->
+    <h6 class="subtitles" id="contentstitle">Algunos de <span class="break">nuestros temas</span></h6> 
+    <section class="content" id="content">
+        
+            <div class="iconandtitle"><img src="assets/icon1.svg" alt="Trabajo remoto">
+                <h3>Trabajo remoto</h3>
+            </div>  
+            <div class="iconandtitle"><img src="assets/icon2.svg" alt="Repensando la programación">
+                <h3>Repensando la <span class="break-content">programación</span></h3>
+            </div>  
+            <div class="iconandtitle"><img src="assets/icon3.svg" alt="Bases del código">
+                <h3>Bases del código</h3>
+            </div>  
+            <div class="iconandtitle"><img src="assets/icon4.svg" alt="Seguridad informática">
+                <h3>Seguridad <span id="breakdesk">informática</span></h3>
+            </div>  
+    </section>
+    <!--news and button2-->
+    <section class="polygon2">
+        <h2 class="news">¿Querés las <span class="break">últimas</span> novedades?</h2>
+            <div class="container">
+                 <div class="button2" id="listen">
+                     <a href="#episodes"><h4>escuchá los episodios</h4></a>
+                 </div>
+            </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <div class="footer" id="copyright"><h5>© 2019— Hello blue pale dot</h5></div>
+        <div class="footer" id="icons">
+            <a href="https://www.spotify.com/ar/"><i class="fab fa-spotify" style="color:#060A24"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram" style="color:#060A24"></i></a>
+            <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter" style="color:#060A24"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook" style="color:#060A24"></i></a>
+            <a href="https://telegram.org/"><i class="fab fa-telegram" style="color:#060A24"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
+

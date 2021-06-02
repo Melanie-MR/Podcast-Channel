@@ -1,0 +1,82 @@
+.polygon2{
+    clip-path: polygon(0 130px, 100% 0, 100% 100%, 0 100%);
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    width: auto;
+    height: 518px;
+
+  }
+  .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 69px;
+  }
+
+  .break-content{
+    display: block;
+  }
+
+  #breakdesk{
+    display: block;
+  }
+  #contentstitle{
+    margin-left: 6.94%;
+    margin-top: 80px;
+  }
+  .iconandtitle{
+    text-align: center;
+  }
+.news{
+  padding-top: 15%;
+  text-align: center;
+}
+.button2 { 
+  display: flex;
+  justify-content: center;
+  width: 345px;
+  height: 56px;
+  margin-left: 38%;
+  background-color: #00F3BB;
+  text-align: center;
+  text-transform: uppercase;
+  :link {
+    text-decoration:none;
+  }
+  :hover{
+    color: #ffffff;
+  }  
+}
+.button2:hover {
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
+@media only screen and (max-width: 480px){
+  .polygon2{
+    clip-path: polygon(0 50px, 100% 0, 100% 100%, 0 100%);
+    height: 341px;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 69px;
+  }
+  .break{
+    display: block;
+  }
+  #breakdesk{
+    display: inline;
+}
+  .news{
+    padding-top: 15%;
+  }
+  .button2 { 
+    width: 288px;
+    height: 48px;
+    text-align: center;
+    margin-left: 5%;
+    :hover{
+      color: #ffffff;
+      background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    }
+  } 
+}
+    
