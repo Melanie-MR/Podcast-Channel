@@ -1,7 +1,7 @@
 .polygon2{
     clip-path: polygon(0 130px, 100% 0, 100% 100%, 0 100%);
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    width: auto;
+    width: 100%;
     height: 518px;
 
   }
@@ -27,15 +27,20 @@
     text-align: center;
   }
 .news{
-  padding-top: 15%;
+  padding-top: 230px;
   text-align: center;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .button2 { 
   display: flex;
   justify-content: center;
   width: 345px;
   height: 56px;
-  margin-left: 38%;
+  margin-left: 43%;
   background-color: #00F3BB;
   text-align: center;
   text-transform: uppercase;
@@ -53,6 +58,7 @@
   .polygon2{
     clip-path: polygon(0 50px, 100% 0, 100% 100%, 0 100%);
     height: 341px;
+    width: 100%;
   }
   .content{
     display: flex;
@@ -64,7 +70,7 @@
   }
   #breakdesk{
     display: inline;
-}
+  }
   .news{
     padding-top: 15%;
   }
@@ -72,7 +78,7 @@
     width: 288px;
     height: 48px;
     text-align: center;
-    margin-left: 5%;
+    margin-left: 20%;
     :hover{
       color: #ffffff;
       background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);

@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap");
 body {
   background-color: #FFFFFF;
-  max-width: 1440px;
   min-width: 320px;
   margin: 0;
 }
@@ -293,7 +292,7 @@ label {
   background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 680px) {
   .bluedot {
     color: black;
   }
@@ -310,7 +309,7 @@ label {
   .description {
     margin-left: 5%;
     margin-bottom: 5%;
-    width: 320px;
+    width: 100%;
   }
   .button {
     display: inline-block;
@@ -325,13 +324,16 @@ label {
   #more:hover {
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
   }
+  .break1 {
+    display: inline;
+  }
 }
 
 .polygon {
   clip-path: polygon(0 150px, 100% 0, 100% 88%, 0 100%);
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
   height: 1042.6px;
-  width: auto;
+  width: 100%;
   margin-bottom: -0px;
   padding-top: 5px;
   position: relative;
@@ -344,7 +346,7 @@ label {
 
 .embeds {
   position: relative;
-  padding-left: 6.94%;
+  margin-left: 18%;
   display: grid;
   grid-template-columns: repeat(2, minmax(200px, 1fr));
 }
@@ -365,7 +367,7 @@ label {
   background-color: transparent;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 680px) {
   .polygon {
     height: 1203.5px;
     clip-path: polygon(0 50px, 100% 0, 100% 95%, 0 100%);
@@ -379,7 +381,7 @@ label {
     display: grid;
     grid-template-columns: repeat(1, minmax(298px, 584px));
     position: relative;
-    padding-left: 3.44%;
+    margin-left: 5%;
   }
   .embeds .chapters {
     padding-bottom: 3.44%;
@@ -460,6 +462,7 @@ label {
 
 .guests .fotos {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -468,7 +471,7 @@ label {
   max-width: 33.33%;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 680px) {
   .guests {
     width: 100%;
   }
@@ -485,7 +488,7 @@ label {
 .polygon2 {
   clip-path: polygon(0 130px, 100% 0, 100% 100%, 0 100%);
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-  width: auto;
+  width: 100%;
   height: 518px;
 }
 
@@ -514,8 +517,14 @@ label {
 }
 
 .news {
-  padding-top: 15%;
+  padding-top: 230px;
   text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .button2 {
@@ -523,7 +532,7 @@ label {
   justify-content: center;
   width: 345px;
   height: 56px;
-  margin-left: 38%;
+  margin-left: 43%;
   background-color: #00F3BB;
   text-align: center;
   text-transform: uppercase;
@@ -545,6 +554,7 @@ label {
   .polygon2 {
     clip-path: polygon(0 50px, 100% 0, 100% 100%, 0 100%);
     height: 341px;
+    width: 100%;
   }
   .content {
     display: flex;
@@ -564,7 +574,7 @@ label {
     width: 288px;
     height: 48px;
     text-align: center;
-    margin-left: 5%;
+    margin-left: 20%;
   }
   .button2 :hover {
     color: #ffffff;

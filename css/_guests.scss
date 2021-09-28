@@ -6,6 +6,7 @@
   width: 100%;
     .fotos{
       display: flex;
+      justify-content: center;
       flex-wrap: wrap;
       width: 100%;
       img {
@@ -14,7 +15,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 680px) {
 
   .guests{
     width: 100%;
